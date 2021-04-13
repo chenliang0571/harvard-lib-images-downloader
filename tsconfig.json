@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": ["es2017", "DOM"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "target": "ES2017"
+  },
+  "compileOnSave": true,
+  "include": [
+    "./src/*.ts"
+  ]
+}
